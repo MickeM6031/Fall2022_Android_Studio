@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
 
         weatherText.setLayoutParams(params);
         weatherText.setText(weather);
-        weatherText.setTextColor(Color.RED);
+        weatherText.setTextColor(Color.BLUE);
         weatherText.setTextAlignment(ViewGroup.TEXT_ALIGNMENT_CENTER);
 
         linearLayout.addView(cityText);
